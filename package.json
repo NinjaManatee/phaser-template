@@ -1,0 +1,22 @@
+{
+  "name": "dungeon-crawl",
+  "version": "0.0.1",
+  "description": "Gauntlet inspired dungeon crawl game.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+	"start:dev": "webpack-dev-server --progress --colors",
+	"test": ""
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "NinjaManatee",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "^2.9.5"
+  },
+  "dependencies": {
+    "webpack": "^3.9.1"
+  }
+}
