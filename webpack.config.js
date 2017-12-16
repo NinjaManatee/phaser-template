@@ -23,17 +23,5 @@ module.exports = {
 	},
 	devServer: {
 		contentBase: path.join(__dirname, "dist")
-	},
-	plugins: [
-		new CopyWebpackPlugin([
-			{
-				from: "src/img",
-				to: "../img"
-			},
-			{
-				from: "src/css",
-				to: "../css"
-			}
-		])
-	] 
+	}
 };

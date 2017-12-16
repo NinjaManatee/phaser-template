@@ -14,7 +14,6 @@
   "author": "NinjaManatee",
   "license": "MIT",
   "devDependencies": {
-    "copy-webpack-plugin": "^4.3.0",
     "ts-loader": "^3.2.0",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2",
